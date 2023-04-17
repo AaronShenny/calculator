@@ -1,0 +1,43 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Bungee+Hairline&family=Lato:wght@300&family=Press+Start+2P&display=swap');
+    </style>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+    </style>
+                   
+ </head>
+ <body>
+    <div class="calc">
+      <p class="para">CALCULATOR</p>
+      <div class="calcoperation">
+      <input type="number" id="num1" placeholder="Number 1" class="numb1">
+      <select id="nume">
+         <option value="+">+</option>
+         <option value="-">-</option>
+         <option value="/">/</option>
+         <option value="*">x</option>
+      </select>
+      <input type="number" id="num2" placeholder="Number 2" class="numb2">
+   </div>
+   <div class="caloper">
+      <button onclick="clear2()" class="butcalc">Clear</button>
+      <button onclick="num()" class="butclear">Calculate</button>
+      <button onclick="up()" class="butup">UP</button>
+   </div>
+    </div>
+
+    <div id="screen">
+      <input id="screen1" value="" class="screendiv" placeholder="Screen">
+    </div>
+    
+ </body>
+ </html>
